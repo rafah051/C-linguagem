@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    
+    printf("*******************");
+    printf("Jogo Da Adivinhação");
+    printf("*******************");
+    
+    int Ns = 666;
+    int chute;
+    printf ("Qual seu chute?: \n");
+    scanf("%d",&chute);
+   
+    if(chute == Ns){
+        printf("BOAAAAA! \n");
+    
+    }
+    else{
+        printf("BURRO!");
+    }
+    
+    return 0;
+}
